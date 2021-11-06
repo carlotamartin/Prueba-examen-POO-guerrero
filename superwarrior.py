@@ -1,73 +1,44 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
-"""
-This Python module contains not only the class Warrior, but also the test of
-this Python class.
-
-@contents :  This module contains not only a single Python class, but also the
-             test cases to probe its functionality.
-@project :  N/A
-@program :  N/A
-@file :  warrior.py
-@author :  Antonio Artes Garcia (antonio.artesgarcia@ceu.es)
-           Alberto Gil De la Fuente (alberto.gildelafuente@ceu.es)
-
-@version :  0.0.1, 04 January 2021
-@information :  The Zen of Python
-                  https://www.python.org/dev/peps/pep-0020/
-                Style Guide for Python Code
-                  https://www.python.org/dev/peps/pep-0008/
-                Example NumPy Style Python Docstrings
-                  http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html
-                doctest – Testing through documentation
-                  https://pymotw.com/2/doctest/
-
-@copyright :  Copyright 2021 GNU AFFERO GENERAL PUBLIC.
-              All rights are reserved. Reproduction in whole or in part is
-              prohibited without the written consent of the copyright owner.
-"""
 
 
 # Source packages.
 
 
 class SuperWarrior():
-    """Python class to implement an advanced version of a warrior of the game.
+    """
+    Python class to implement an advanced version of a warrior of the game.
 
     This Python class implements the advanced version of a warrior of the game.
 
     Syntax
     ------
-      obj = SuperWarrior(id, warrior_type, weapon_type, health_points,
-                         attack_rating, defense_rating,
-                         special_attack_rating, special_defense_rating)
+obj = SuperWarrior(id, warrior_type, weapon_type, health_points,
+attack_rating, defense_rating,
+special_attack_rating, special_defense_rating)
 
     Parameters
     ----------
-      [in] id Id of warrior.
-      [in] warrior_type Type of warrior.
-      [in] weapon_type Type of weapon that carries out the warrior.
-      [in] health_points Points of health that the warrior has.
-      [in] attack_rating Attack rating of the warrior.
-      [in] defense_rating Defense rating of the warrior.
-      [in] special_attack_rating Special Attack rating of the warrior.
-      [in] special_defense_rating Special Defense rating of the warrior.
+[in] id Id of warrior.
+[in] warrior_type Type of warrior.
+[in] weapon_type Type of weapon that carries out the warrior.
+[in] health_points Points of health that the warrior has.
+[in] attack_rating Attack rating of the warrior.
+[in] defense_rating Defense rating of the warrior.
+[in] special_attack_rating Special Attack rating of the warrior.
+[in] special_defense_rating Special Defense rating of the warrior.
 
     Returns
     -------
-      obj Python object output parameter that represents an instance
-          of the class SuperWarrior.
+obj Python object output parameter that represents an instance
+of the class SuperWarrior.
 
     Attributes
     ----------
 
     Example
     -------
-      >>> from warrior import Warrior
-      >>> obj_Warrior = Warrior("Boxer", "Fist", 99, 10, 7, 19, 18)
-    """
+>>> from warrior import Warrior
+>>> obj_Warrior = Warrior("Boxer", "Fist", 99, 10, 7, 19, 18)
+"""
 
 
 def main():
@@ -77,19 +48,19 @@ def main():
 
     Syntax
     ------
-      [ ] = main()
+[ ] = main()
 
     Parameters
     ----------
-      Null .
+Null .
 
     Returns
     -------
-      Null .
+    Null .
 
     Example
     -------
-      >>> main()
+        >>> main()
     """
 
     print("=================================================================.")
